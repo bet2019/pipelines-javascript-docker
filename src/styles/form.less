@@ -1,0 +1,52 @@
+label span.required:after {
+  content: "*";
+  color: #f00;
+}
+
+form .app-error {
+  color: #f00;
+}
+.form-default-action-btn {
+  margin-top: 30px;
+  button {
+    margin-right: 5px
+  }
+}
+
+.filter-form-container{
+  display: flex;
+  width: 100%;
+
+  .filter-item-container{
+    flex: 1;
+    flex-direction: column;
+  }
+}
+
+.form-group {
+  margin-bottom: 10px;
+
+  label {    
+    font-weight: 600;
+  }
+}
+.nomination-form .form-group label,
+.company-form .form-group label  {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.regular-form {
+  border: 1px dashed grey;
+  padding: 10px;
+}
+
+.input-inline-width-100 {
+  .form-group {
+    float: left;
+    width: 50%;
+  }
+  ::after{
+    float: none;
+  }
+}

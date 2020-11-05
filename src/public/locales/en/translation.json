@@ -1,0 +1,34 @@
+{
+  "footer": {
+    "contact_us": "Contact Us"
+  },
+  "label": {
+    "cancel": "Cancel",
+    "company": "Company",
+    "created_at": "Created at",
+    "edit": "Edit",
+    "lab": "Lab",
+    "nomination_new_project": "Nominate new project",
+    "save": "Save",
+    "status": "Status",
+    "submitted_at": "Submitted at"
+  },
+  "lang": {
+    "chinese": "Chinese",
+    "english": "English"
+  },
+  "main_menu": {
+    "nominations": "Nominations",
+    "signout": "Sign out"
+  },
+  "msft_ai_iot_insider_labs": "Microsoft AI & IoT Insider Labs",
+  "page": {
+    "title": {
+      "company_edit": "Edit Company info",
+      "edit_nomination": "Edit Nomination",
+      "new_nomination": "New Nomination",
+      "nomination": "Nomination",
+      "nominations": "Nominations"
+    }
+  }
+}

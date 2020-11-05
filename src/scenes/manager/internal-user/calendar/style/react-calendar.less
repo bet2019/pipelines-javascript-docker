@@ -1,0 +1,119 @@
+@import '~antd/lib/style/themes/index.less';
+@import '../../../../../styles/_vars.less';
+
+@border-header-color: darken(@blue-6, 5%) ;
+// @border-header-color: lighten(#000, 30%) ;
+
+.popover-nomination-card {
+  min-width: 500px;
+  max-width: 500px;
+
+  .ant-popover-inner-content{
+    border: 1px solid lighten(@blue-6, 25%);
+    border-radius: @border-radius-base;
+  }
+  .ant-popover-arrow  {
+    border-top-color: lighten(@blue-6, 25%) !important;
+    border-left-color: lighten(@blue-6, 25%) !important;
+  }
+}
+
+.react-calendar-timeline {
+  border: 1px solid lighten(@blue-6, 25%);
+  border: 1px solid #eee;
+  border: none;
+  border-bottom: 2px solid lighten(@blue-6, 25%);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+  .rct-header-root {
+    background-color: @grey;
+    background-color: lighten(@blue-6, 40%);
+    // background-color: rgba(0, 0, 0, 0.2);
+    // background-color: darken(@blue-6, 5%);
+  }
+  .rct-calendar-header {
+    border: none;
+  }
+  .rct-dateHeader-primary {
+    color: darken(@blue-6, 10%);
+    font-weight: 700;
+    border-left: 1px solid @border-header-color;
+    border-right: none;
+    // border-right: 1px solid @border-header-color;
+    border-bottom: 1px solid @border-header-color;
+  }
+  .sidebar-header {
+    color: darken(@blue-6, 10%);
+    border-right: 1px solid @border-header-color;
+    text-align: center;
+    font-weight: 700;
+  }
+  .date-header {
+    div {
+      color: darken(@blue-6, 10%);
+      line-height: 30px;
+      text-align: center;
+      border-left: 1px solid @border-header-color;
+      // cursor: 'pointer',
+      // backgroundColor: 'Turquoise',
+    }
+  }
+  .rct-sidebar {
+    .rct-sidebar-row {
+      &.rct-sidebar-row-odd {
+        background-color: #f4f4f4;
+      }
+      &.rct-sidebar-row-even {
+        background-color: @white;
+      }
+    }
+  }
+
+  .rct-vl {
+    &.rct-day-6, &.rct-day-0{
+      background-color: rgba(255,255,0, 0.25) !important;
+    }
+  }
+
+  .rct-item {
+    .timeline-colors()
+  }
+
+  .rct-horizontal-lines {
+    .rct-hl-odd {
+      background-color: #f4f4f4;
+    }
+    .rct-hl-even {
+      background-color: @white !important;
+    }
+  }
+
+  .rct-scroll {
+    .react-calendar-disable-overflow-x & {
+      overflow-x: hidden;
+    }
+  }
+}
+
+.timeline-colors-description {
+  .timeline-colors()
+}
+
+.timeline-colors() {
+  &.engagement-completed {
+    background-color: lighten(@grey, 10%) !important;
+    border-color: darken(@grey, 10%) !important;
+  }
+  &.engagement-dates-confirmed {
+    // background-color: lighten(@green, 10%) !important;
+    background-color: @green !important;
+    border-color: darken(@green, 10%) !important;
+  }
+  &.engagement-dates-not-confirmed {
+    // background-color: lighten(@green, 10%) !important;
+    background-color: #2196f3 !important;
+    border-color: darken(#2196f3, 10%) !important;
+  }
+}

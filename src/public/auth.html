@@ -1,0 +1,32 @@
+<html>
+  <body>
+    
+    <script lang="javascript">
+      function clearStorage() {
+        localStorage.clear()
+
+        var cookies = document.cookie.split(";");
+        for (var i = 0; i < cookies.length; i++) {
+          var name =  cookies[i].split("=")[0];
+          document.cookie = name+"=;expires=-1; path=/";
+        }
+      }
+
+      var hash = location.hash
+      
+      if (hash.length > 0) {
+        if (hash[0]==='#'){
+          hash = hash.slice(1)
+        }
+
+        var hashed = hash.split('&')
+        hashed.map(function(i){
+          var element = i.split('=')    
+          if (element[0]=='error') { //login_required ; consent_required ; interaction_required
+            clearStorage()
+          }
+        })
+      }
+    </script>
+  </body>
+</html>

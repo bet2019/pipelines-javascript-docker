@@ -1,0 +1,13 @@
+{
+  "nomination": {
+    "aiot_lan_nomination_form": "Microsoft AI & IoT Insider Labs Nomination Form",
+    "intro_1": "The Microsoft AI & IoT Insider Labs works with companies' technical teams to remove technical roadblocks they face on AI or IoT projects.",
+    "intro_2_1": "Does your company have an AI and/or IoT project funded for commercialization?",
+    "intro_2_2": "Does your project have well defined business and technical requirements?",
+    "intro_2_3": "Would your technical team like to come to the lab and work alongside IoT and AI technical professionals to work through technical roadblocks and challenges?",
+    "intro_3": "If you answered yes to all the questions above, we encourage you to apply! The questions below will aid us in evaluating if your project is a match for Microsoft's AI & IoT Insider Labs.",
+    "send_engineers_text": "Send your engineering team to Microsoft to work with AI &amp; IoT professional technical engineers on your AI or IoT project."
+  },
+  "privacy_statement_label": "Privacy Statement",
+  "privacy_statement_descr": "Your privacy is important to us. Microsoft uses the personal data you provide on this form to notify you of information about the Microsoft AI & IoT Insider Labs. We share your personal data with your consent or as necessary to complete any transaction or provide any service you have requested. We also share data with Microsoft-controlled affiliates and subsidiaries; with vendors working on our behalf; when required by law or to respond to legal process; to protect our customers; to protect lives; to maintain the security of our services; and to protect the rights of property or Microsoft. Microsoft is committed to protecting the security of your personal data. We use a variety of security technologies and procedures to help protect your personal information from unauthorized access, use, or disclosure. Your personal data is never shared outside the company without your permission, except under conditions explained above. For more information about Microsoft's Privacy Practices, see https://aka.ms/privacy. If you believe that Microsoft has not adhered to this statement, please contact us at https://aka.ms/privacyresponse. We will respond to questions within 30 days."
+}

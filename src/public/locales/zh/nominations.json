@@ -1,0 +1,49 @@
+{
+  "company_country": "公司国家/地区",
+  "company_industry_vertical": "垂直行业",
+  "company_name": "公司名称",
+  "company_website": "公司网站",
+  "label": {
+    "azure_consumption": "预计年度 Azure 使用量（RMB）",
+    "azure_lifetime_consumption": "预计项目周期内 Azure 使用量（RMB）",
+    "azure_subscription": "Azure 订阅 GUID",
+    "contact_person_email": "联系人邮箱",
+    "contact_person_name": "联系人",
+    "contact_person_role": "联系职位",
+    "contact_person_phone": "联系人电话",
+    "country": "公司国家/地区",
+    "created_by_at": "由 {{by}} 在 {{at}} 创建",
+    "current_status": "描述您的 AI / IoT 项目或产品目前的开发进展",
+    "engineers_visiting": "入驻实验室的工程师数量",
+    "industry_vertical": "垂直行业",
+    "iot_cloud_technologies": "此项目中使用到的云技术",
+    "iot_design": "AI 或 IoT 设计的技术方案概述",
+    "iot_opportunity": "描述您的 AI / IoT 产品",
+    "lab_location": "实验室位置",
+    "market_and_customer_benefits": "目标市场和客户效益",
+    "msft_contact_email": "微软邮箱",
+    "msft_contact_name": "姓名",
+    "msft_technology": "此项目中使用到的微软技术",
+    "prioritized_workstreams": "您计划于实验室达成的项目/产品开发目标，并列出目标优先级",
+    "product_phases_desc": "产品各版本计划发布日期",
+    "project_phase": "目前的项目阶段",
+    "projected_annual_revenue": "预计产品/服务的年收入",
+    "projected_sold_annually": "预计每年销售的产品数量",
+    "submit": "提交",
+    "submitted": "已提交",
+    "status": "状态",
+    "updated_by_at": "由 {{by}} 在 {{at}} 更新",
+    "website": "公司网站"
+  },
+  "page": {
+    "section_title": {
+      "company_contact": "公司联系人",
+      "company_details": "公司信息",
+      "marketing_and_business": "商业计划",
+      "msft_contact": "微软联系人",
+      "nomination_details": "报名详情",
+      "project_details": "项目信息",
+      "technology_and_objectives": "项目描述"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "company_country": "Company Country/Region",
+  "company_industry_vertical": "Industry Vertical",
+  "company_name": "Company Name",
+  "company_website": "Company Website",
+  "label": {
+    "azure_consumption": "Projected Microsoft Azure Consumption (a year) ($ USD)",
+    "azure_lifetime_consumption": "Projected Microsoft Azure Consumption (lifetime of project) ($ USD)",
+    "azure_subscription": "Azure Subscription GUID",
+    "contact_person_email": "Contact Email",
+    "contact_person_name": "Contact Name",
+    "contact_person_role": "Contact Title (Role)",
+    "contact_person_phone": "Contact Phone",
+    "country": "Company Country/Region",
+    "created_by_at": "Created by {{by}} at {{at}}",
+    "current_status": "Describe current status of your AI or IoT product as of today",
+    "engineers_visiting": "Number of engineers your team will bring to lab",
+    "industry_vertical": "Industry vertical",
+    "iot_cloud_technologies": "Cloud Technologies",
+    "iot_design": "Technical Overview of AI or IoT Design",
+    "iot_opportunity": "Describe your AI and/or IoT product",
+    "lab_location": "Lab Location",
+    "market_and_customer_benefits": "Target market and customer benefit",
+    "msft_contact_email": "Microsoft email",
+    "msft_contact_name": "Name",
+    "msft_technology": "Microsoft Technologies used in this project",
+    "prioritized_workstreams": "Prioritize the workstreams and provide details for each workstream to work on in the lab ",
+    "product_phases_desc": "Product phases and target dates for each launch",
+    "project_phase": "Current phase of project",
+    "projected_annual_revenue": "Projected annual revenue for product/service",
+    "projected_sold_annually": "Projected number of products sold annually",
+    "submit": "Submit",
+    "submitted": "Submitted",
+    "status": "Status",
+    "updated_by_at": "Updated by {{by}} at {{at}}",
+    "website": "Website"
+  },
+  "page": {
+    "section_title": {
+      "company_contact": "Company Contact",
+      "company_details": "Company details",
+      "marketing_and_business": "Your Business Plan",
+      "msft_contact": "Microsoft Contact",
+      "nomination_details": "Nomination details",
+      "project_details": "Project Information",
+      "technology_and_objectives": "Technical Overview and Objectives for Lab Visit"
+    }
+  }
+}

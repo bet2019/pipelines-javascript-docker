@@ -1,0 +1,30 @@
+@import (reference) './_vars.less';
+
+.followup-record {
+  &.pinned {
+    background-color: lighten(@warning-color, 43%);
+  }
+}
+
+.highlight-customer-visible-fields{
+  .nomination-blue-background-explanation {
+    padding: 5px;
+    padding-left: 25px;
+    background-color: @user-public-highlight-color;
+  }
+
+    h1, h2, h3, h4, h5, h6, span, dt {
+      &.external-user-access {
+        background-color: @user-public-highlight-color;
+        padding: 4px;
+      }
+    }
+
+    .form-group.external-user-access  {
+      label {
+        background-color: @user-public-highlight-color;
+        padding: 4px;
+      }
+    }
+
+}

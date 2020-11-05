@@ -1,0 +1,224 @@
+@import './mwf-west-european-default.scss';
+
+$primaryBlue: #0078D7;
+$primaryRed: #E81123;
+$lightBackground: #f2f2f2;
+
+.context-control {
+	/*margin-top: 140px !important;
+
+    @media (max-width: 767px) {
+        margin-top: 20px !important;
+    }*/
+}
+
+#mainContent {
+	.c-subheading-2 {
+		margin-top: 1rem;
+	}
+
+	ul.default-list {
+		// font-size: 13px;
+		padding: 10px;
+		list-style: disc;
+
+		li {
+			margin-left: 20px;
+		}
+	}
+}
+
+#headerArea {
+	height: auto;
+}
+
+#iot-page-header {
+	margin: 0;
+	background: $primaryBlue !important;
+
+	.c-logo > span {
+		color: white;
+	}
+}
+
+#iot-page-header.iot-accent {
+	/*background: #0078D7 !important;
+    color: white !important;*/
+}
+
+#iot-hero-wrapper {
+	margin: 0;
+
+	.iot-hero-text {
+		padding: 20px;
+		max-height: 250px;
+		max-width: 300px;
+		background: $primaryBlue;
+		top: calc(40%);
+		//height: auto;
+		//margin-top: -100px;
+		color: white;
+		//height: 60%;
+		.c-heading {
+			padding: 0;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 33px;
+		}
+
+		.c-paragraph {
+			font-size: 17px;
+		}
+
+		div {
+			text-align: center;
+
+			.c-call-to-action {
+				padding: 10px 40px 7px 24px;
+				background: white;
+				color: black;
+			}
+		}
+	}
+}
+
+.c-form-input {
+	padding: 5px;
+
+	label.c-label {
+		margin: 0;
+		display: inline-block;
+		font-weight: 600;
+		/*&.required:after {
+			content: " (required)";
+			color: $primaryRed;
+		}*/
+	}
+
+	input.c-text-field[type="number"] {
+		margin: 0;
+	}
+}
+
+/*.cn .c-label.required:after {
+	content: " (??)";
+	color: $primaryRed;
+}*/
+
+.cn {
+	#iot-hero-wrapper {
+		.iot-hero-text {
+			text-align: left;
+
+			.c-heading {
+				padding: 0;
+				font-weight: 400;
+				font-size: 22px;
+				line-height: normal;
+			}
+
+			.c-paragraph {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.c-label .required {
+	color: $primaryRed;
+}
+
+.c-select.f-flex {
+	max-width: 100%;
+}
+
+.c-table {
+	td {
+		/*padding: 0;*/
+	}
+
+	td.c-action-col {
+		width: 50px;
+
+		.c-action-trigger {
+			padding: 0;
+			margin: 0;
+			vertical-align: middle;
+		}
+	}
+}
+
+.c-action-trigger.f-heavyweight.f-accent-red {
+	background: $primaryRed;
+}
+
+.c-action-trigger.f-accent-red {
+	color: $primaryRed;
+}
+
+.iot-headding {
+	margin-top: 20px;
+}
+
+.c-action-trigger.f-small {
+	font-size: 12px;
+	//padding: 2px 6px 0 4px;
+}
+
+.iot-mobilemenu-global {
+	#iot-title-menu {
+		display: block;
+	}
+
+	#uhf-g-nav {
+		display: block;
+		height: 100vh;
+		background: $lightBackground;
+		padding-bottom: 50px;
+		//width: 80%;
+	}
+}
+
+#iot-mobile-account-button {
+	display: none;
+}
+
+.x-visible-mobile {
+	display: none;
+}
+
+.x-hidden-mobile {
+	display: block !important;
+}
+
+.iot-mobilemenu-settings {
+	#iot-title-account {
+		display: block;
+	}
+
+	#uhf-g-nav-account {
+		display: block;
+		height: 100vh;
+		background: $lightBackground;
+		padding-bottom: 50px;
+		//width: 80%;
+	}
+}
+
+@media only screen and (max-device-width : 768px) {
+	.x-visible-mobile {
+		display: block !important;
+	}
+
+	.x-hidden-mobile {
+		display: none !important;
+	}
+
+	#iot-hero-wrapper {
+		.iot-hero-text {
+			margin: 0;
+			max-width: none;
+			width: auto;
+		}
+	}
+}

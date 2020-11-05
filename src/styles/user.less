@@ -1,0 +1,22 @@
+.user-avatar {
+  .circle {
+    background-color: @white;
+    border: 1px solid @user-avatar-border-color;
+    border-radius: 50%;
+    height: @user-avatar-size;
+    text-align: center;
+    width: @user-avatar-size;
+    margin-bottom: 5px;
+    
+    .initials {
+      color: @user-avatar-initials-color;
+      font-weight: bold;
+      font-size: calc(@user-avatar-size / 2); /* 50% of parent */
+      line-height: calc(@user-avatar-size / 2); /* 50% of parent */
+      position: relative;
+      top: calc(-1 * @user-avatar-size / 4); /* 25% of parent */
+    }
+  }
+
+
+}

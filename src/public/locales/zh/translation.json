@@ -1,0 +1,34 @@
+{
+  "footer": {
+    "contact_us": "联系我们"
+  },
+  "label": {
+    "cancel": "取消",
+    "company": "公司名称",
+    "created_at": "创建日期",
+    "edit": "编辑",
+    "lab": "实验室",
+    "nomination_new_project": "报名新项目",
+    "save": "保存",
+    "status": "状态",
+    "submitted_at": "提交日期"
+  },
+  "lang": {
+    "chinese": "中文",
+    "english": "英语"
+  },
+  "main_menu": {
+    "nominations": "报名列表",
+    "signout": "注销"
+  },
+  "msft_ai_iot_insider_labs": "微软人工智能和物联网实验室",
+  "page": {
+    "title": {
+      "company_edit": "编辑公私信息",
+      "edit_nomination": "编辑报名",
+      "new_nomination": "新报名",
+      "nomination": "报名",
+      "nominations": "报名列表"
+    }
+  }
+}
